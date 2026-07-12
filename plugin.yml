@@ -1,0 +1,5 @@
+name: ZonePurification
+version: 1.0.0
+main: ZonePurification\Main
+api: [5.0.0]
+author: YeoDEV
