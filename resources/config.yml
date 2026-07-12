@@ -1,0 +1,9 @@
+zones:
+  - "100:100:100:world"
+
+radius: 10
+
+input_item: "minecraft:diamond"
+output_item: "minecraft:emerald"
+
+time_required: 30
