@@ -59,7 +59,7 @@ class PurificationTask extends Task {
                         $inventory->removeItem($inputItem->setCount(1));
                         $inventory->addItem($outputItem->setCount(1));
                         
-                        $player->sendMessage("§a- §fYou have finished purifying your item");
+                        $player->sendActionBarMessage("§a- §fYou have finished purifying your item §a-");
                         $player->sendActionBarMessage(" ");
                     } else {
                         $player->sendActionBarMessage("§a" . $remainingTime . "s");
